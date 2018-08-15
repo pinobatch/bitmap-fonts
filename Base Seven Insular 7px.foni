@@ -1,0 +1,46 @@
+image=vwf/BaseSeven_vx8.png
+height=8
+maxwidth=8
+bgcolor=#FFFFFF
+
+chars=0020-003F
+
+; Uppercase letters not used in insular get moved out
+chars=0040,F80A,F80B,0043,F80C,F80D,F80E,F80F
+chars=0048,0049,004A,004B,F810,F812,F813,004F
+chars=0050,0051,0052,0053,F814,0055,0056,0057
+chars=0058,0059,005A,005B-005F
+
+; Lowercase letters not used in insular get moved out
+chars=0060,F800,F801,0063,F802,0065,F803,0261
+chars=0068,F804,F805,F806,006C,006D,006E,006F
+chars=0070,0071,0433,0073,F807,0075,F808,0077
+chars=0078,0079,007A-007E,2302
+
+; Row 7:
+; inverted bang, cents, GBP, EUR, up, down, left, right
+chars=00A1, 00A2, 00A3, 20AC, 2191, 2193, 2190, 2192
+; white heart, black heart, copr, reg, tm, ^2, radical, inverted question
+chars=2661, 2665, 00A9, 00AE, 2122, 00B2, 221A, 00BF
+
+; Row 8:
+; A acute, A diaeresis, AE, C cedilla, E acute, I acute, N tilde, O acute
+chars=00C1, 00C4, 00C6, 00C7, 00C9, 00CD, 00D1, 00D3
+; O diaeresis, U acute, U diaeresis, thorn, small mu
+chars=00D6, 00DA, 00DB, 00DE, 03BC
+
+; Row 9 is row 8 lowercase, last replaced with eszett
+chars=00E1, 00E4, 00E6, 00E7, 00E9, 00ED, 00F1, 00F3
+chars=00F6, 00FA, 00FB, 00FE, 00DF
+
+; Row 10 contains more Latin small letters
+; alpha, round b, insular d, insular f, insular g, looptail g, dotless i, dotless j
+chars=0061, 0062, 0064, 0066, 0067, F809, 0069, 006A
+; loop k, insular long r, small capital r, long s, insular long s, insular t, v with hook
+; tailed l is missing because Base Seven already has a tailed L
+chars=006B,       A783, 0072, 017F, A785, 0074, 0076
+
+; Row 11: extra capitals, all of which are used in insular
+; So far I have insular A, B, D, E, F, G, L, M, N, T
+chars=0041,0042,0044,0045,0046,0047,004C,004D
+chars=004E,0054

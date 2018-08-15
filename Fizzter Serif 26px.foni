@@ -1,0 +1,26 @@
+image=vwf/fizzter.png
+height=32
+maxwidth=24
+
+chars=0020-005F
+; Latin letter script g is in the middle of this row
+; to use script g as the main g, swap 0261 with 0067
+chars=0060-0066, 0261, 0068-006F
+chars=0070-007E, 00A9
+
+; bu ligature, zz ligature, top of pillar, middle of pillar,
+; superscript two
+chars=F840-F843, 00B2
+; Greek small mu (micro sign), cap and small thorn
+chars=03BC, 00DE, 00FE
+; Latin capital alpha, insular D, G, T
+chars=2C6D, A779, A77D, A786
+; Extra glyphs line contains a bunch more Latin small letters:
+; alpha, round b, insular d, insular f,
+chars=0251, F801, A77A, A77C
+; insular g, looptail g, dotless i, dotless j,
+chars=1D79, 0067, 0131, 0237
+; loop k, l with tail, insular long r, small capital r,
+chars=F808, F809, A783, 0280
+; long s, insular long s, insular t, v with hook
+chars=017F, A785, A787, 028B
