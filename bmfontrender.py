@@ -47,15 +47,15 @@ except ImportError:
     print("Tkinter (Python interface to Tk) is not installed.", file=sys.stderr)
     if os.name == 'posix':
         print("Debian and Ubuntu package Tkinter separately from Python.  Try this:\n"
-              "sudo apt-get install python3-pil.imagetk",
+              "    sudo apt install python3-pil.imagetk",
               file=sys.stderr)
     sys.exit(1)
 try:
     from PIL import ImageTk
 except ImportError:
-    print("Tk and Pillow are not installed, but not the module that connects the two.\n"
+    print("Tk and Pillow are installed, but not the module that connects the two.\n"
           "Debian and Ubuntu, for example, provide this separately:\n"
-          "    sudo apt-get install python3-pil.imagetk",
+          "    sudo apt install python3-pil.imagetk",
           file=sys.stderr)
     sys.exit(1)
 
