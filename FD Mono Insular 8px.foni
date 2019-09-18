@@ -1,0 +1,5 @@
+image=8x8/insular8x8.png
+height=8
+width=8
+
+chars=0020-005F

@@ -1,0 +1,10 @@
+image=8x16/gsmplay8x15.png
+height=16
+width=8
+
+# lock and pause are mapped to their ordinary code points
+# lcd digits are mapped to fullwidth digits
+chars=F800-F80B,1F512,F80D-F80F
+chars=23F8,F811-F815,FF10-FF19
+# and the rest are basic latin
+chars=0020-007F

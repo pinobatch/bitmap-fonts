@@ -1,0 +1,5 @@
+image=other/tiny3x6.png
+height=6
+width=3
+
+chars=0020-007F
