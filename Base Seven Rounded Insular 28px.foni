@@ -15,7 +15,7 @@ chars=0058,0059,005A,005B-005F
 chars=0060,F800,F801,0063,F802,0065,F803,0261
 chars=0068,F804,F805,F806,006C,006D,006E,006F
 chars=0070,0071,0433,0073,F807,0075,F808,0077
-chars=0078,0079,007A-007E,2302
+chars=0078,F879,007A-007E,2302
 
 ; Row 7:
 ; inverted bang, cents, GBP, EUR, up, down, left, right
@@ -29,9 +29,9 @@ chars=00C1, 00C4, 00C6, 00C7, 00C9, 00CD, 00D1, 00D3
 ; O diaeresis, U acute, U diaeresis, thorn, small mu
 chars=00D6, 00DA, 00DB, 00DE, 03BC
 
-; Row 9 is row 8 lowercase, last replaced with eszett
+; Row 9 is row 8 lowercase, last being eszett
 chars=00E1, 00E4, 00E6, 00E7, 00E9, 00ED, 00F1, 00F3
-chars=00F6, 00FA, 00FB, 00FE, 00DF
+chars=00F6, 00FA, 00FB, 0079, 00FE, 00DF
 
 ; Row 10 contains more Latin small letters
 ; alpha, round b, insular d, insular f, insular g, looptail g, dotless i, dotless j

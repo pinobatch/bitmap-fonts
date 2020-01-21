@@ -23,7 +23,7 @@ chars=00D6, 00DA, 00DB, 00DE, 03BC
 
 ; Row 9 is row 8 lowercase, last being eszett
 chars=00E1, 00E4, 00E6, 00E7, 00E9, 00ED, 00F1, 00F3
-chars=00F6, 00FA, 00FB, 00FE, 00DF
+chars=00F6, 00FA, 00FB, F879, 00FE, 00DF
 
 ; Row 10 contains more Latin small letters
 ; alpha, round b, insular d, insular f, insular g, looptail g, dotless i, dotless j
