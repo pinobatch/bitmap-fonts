@@ -1,0 +1,27 @@
+How to turn Fizzter Sans/Serif 26px into Bold 13px
+
+1. Pink to black
+2. Duplicate layer
+3. Move the two layers 1 pixel left and 1 pixel down respectively
+4. Change top layer's mode to Lighten only
+5. Flatten
+6. Pixelize at 2x2 
+7. Posterize to 4 levels
+8. Reintroduce original pink
+
+Some glyphs use 1 pixel right instead of left.  These might have
+been at sign and copyright.
+
+How to turn Fizzter Sans/Serif into Bolder 13px
+
+1. Pink to black
+2. Duplicate layer twice
+3. Move the top two layers 1 pixel left and 1 pixel down+right
+   respectively
+4. Change top two layers' mode to Lighten only
+5. Convolve bottom layer with [0 1 1 0 0]/2 vertically, moving it
+   down half a pixel
+6. Flatten
+7. Pixelize at 2x2 
+8. Posterize to 4 levels
+9. Reintroduce original pink
