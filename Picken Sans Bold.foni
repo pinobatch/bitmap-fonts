@@ -1,0 +1,15 @@
+image=vwf/Picken_Sans_Bold.png
+height=12
+maxwidth=12
+bgcolor=#FFFFFF
+
+# null, page facing up, filefolder
+chars=F800,1F5CE,1F4C2,F803-F80F
+# a, b, null, null, right, left, up, down, r, l
+chars=24B6,24B7,F812,F813,2192,2190,2191,2193,24C7,24C1,F81A-F81F
+# ascii, no DEL
+chars=0020-007E,F87F
+# euro
+chars=20AC,F881-F89F
+# rest of iso 8859-1
+chars=00A0-00FF
