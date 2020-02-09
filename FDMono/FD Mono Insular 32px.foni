@@ -1,0 +1,5 @@
+image=../other/insular32x32.png
+height=32
+width=32
+
+chars=0020-005F

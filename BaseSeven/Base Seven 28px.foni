@@ -1,0 +1,40 @@
+image=../vwf/BaseSeven_vx32.png
+height=32
+maxwidth=32
+bgcolor=#FFFFFF
+
+chars=0020-005F
+; Latin letter script g is in the middle of this row
+chars=0060-0066, 0261, 0068-006F
+; HOUSE where DEL sits follows CP437
+chars=0070-007E, 2302
+
+; Row 7:
+; inverted bang, cents, GBP, EUR, up, down, left, right
+chars=00A1, 00A2, 00A3, 20AC, 2191, 2193, 2190, 2192
+; white heart, black heart, copr, reg, tm, ^2, radical, inverted question
+chars=2661, 2665, 00A9, 00AE, 2122, 00B2, 221A, 00BF
+
+; Row 8:
+; A acute, A diaeresis, AE, C cedilla, E acute, I acute, N tilde, O acute
+chars=00C1, 00C4, 00C6, 00C7, 00C9, 00CD, 00D1, 00D3
+; O diaeresis, U acute, U diaeresis, thorn, small mu
+chars=00D6, 00DA, 00DB, 00DE, 03BC
+
+; Row 9 is row 8 lowercase, last being eszett
+chars=00E1, 00E4, 00E6, 00E7, 00E9, 00ED, 00F1, 00F3
+chars=00F6, 00FA, 00FB, F879, 00FE, 00DF
+
+; Row 10 contains more Latin small letters
+; alpha, round b, insular d, insular f, insular g, looptail g, dotless i, dotless j
+chars=0251, F801, A77A, A77C, 1D79, 0067, 0131, 0237
+; loop k, insular long r, small capital r, long s, insular long s, insular t, v with hook
+; tailed l is missing because Base Seven already has a tailed L
+chars=F808,       A783, 0280, 017F, A785, A787, 028B
+
+; Row 11: extra capitals
+; So far I have insular A, B, D, E, F, G, L, M, N, T
+; The default mapping puts DFGT on their insular code points,
+; A on Latin alpha, E on Ukrainian ie, and BLMN on private use
+chars=2C6D,F802,A779,0404,A77B,A77D,F80C,F80D
+chars=F80E,A786
