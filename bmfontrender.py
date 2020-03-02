@@ -166,9 +166,18 @@ or an integer first CP (if glyphs correspond to contiguous CPs)
 
     def text_size(self, txt):
         txt1 = [self.cp_to_glyph(c) or 0 for c in txt]
-        if self.vwf_table:
-            chs = (self.vwf_table[c] for c in txt1)
-            w = sum(row[2] - row[0] for row in chs)
+        if not txt1:
+            w = 0
+        elif self.vwf_table:
+            if max(txt1) >= len(self.vwf_table):
+                raise IndexError(
+                    "glyphid %d >= vwf_table length %d; malformed foni?"
+                    % (max(txt1), len(self.vwf_table))
+                )
+            w = 0
+            for c in txt1:
+                l, _, r = self.vwf_table[c]
+                w += r - l
         else:  # fixed width
             w = sum(self.cw for c in txt1)
         return (w, self.ch)
@@ -344,6 +353,7 @@ class App:
             'title': "Choose a font"
         }
         filename = tkFileDialog.askopenfilename(**options)
+        if not filename: return 'break'
         try:
             font, args = PILtxt.fromfonifile(filename)
             bgcolorcode = args.get('bgcolor', '#000000')
