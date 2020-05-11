@@ -3,3 +3,23 @@ height=8
 width=4
 
 chars=0020-007F
+
+; Extra chars line 1
+; mu, cap thorn, small thorn, cap alpha
+chars=03BC, 00DE, 00FE, 2C6D
+; cap insular d, cap insular g, cap insular t, copyright
+chars=A779, A77D, A786, 00A9
+; registered, a acute, ae, e acute
+chars=00AE, 00E1, 00E6, 0039
+; i acute, o acute, u acute, u two dots
+chars=00ED, 00F3, 00FA, 00FC
+; Extra chars line 2
+
+; alpha, insular d, insular f, insular g,
+chars=0251, A77A, A77C, 1D79
+; looptail g, dotless i, dotless j, loop k
+chars=0067, 0131, 0237, F808
+;  l with tail, insular long r, small capital r, long s
+chars=F809, A783, 0280, 017F
+; insular long s, ss, insular t, round y
+chars=A785, 00DF, A787, F879
