@@ -248,10 +248,10 @@ or an integer first CP (if glyphs correspond to contiguous CPs)
 
 class App:
 
-    def __init__(self, master):
+    def __init__(self, parent):
 
-        self.root = master
-        master.wm_title("bitmap font renderer")
+        self.root = parent
+        parent.wm_title("bitmap font renderer")
         self.texttorender = None
         self.font = self.bgcolor = None
         self.tmpdir = None
@@ -264,9 +264,9 @@ class App:
         menubar.add_command(label="Save As", command=self.save_as)
         menubar.add_command(label="GIMP", command=self.open_in_gimp)
         menubar.add_command(label="Quit", command=root.quit)
-        master.config(menu=menubar)
+        parent.config(menu=menubar)
 
-        frame = tkinter.Frame(master)
+        frame = tkinter.Frame(parent)
         frame.pack()
         self.previewarea = tkinter.Canvas(frame, height=100)
         self.previewarea.pack()
