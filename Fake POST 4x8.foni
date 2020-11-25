@@ -2,7 +2,7 @@ image=other/bios4x8.png
 height=8
 width=4
 
-chars=0020-007F
+chars=0020-0066,F867,0068-007F
 
 ; Extra chars line 1
 ; mu, cap thorn, small thorn, cap alpha
@@ -10,7 +10,7 @@ chars=03BC, 00DE, 00FE, 2C6D
 ; cap insular d, cap insular g, cap insular t, copyright
 chars=A779, A77D, A786, 00A9
 ; registered, a acute, ae, e acute
-chars=00AE, 00E1, 00E6, 0039
+chars=00AE, 00E1, 00E6, 00E9
 ; i acute, o acute, u acute, u two dots
 chars=00ED, 00F3, 00FA, 00FC
 ; Extra chars line 2
@@ -23,3 +23,4 @@ chars=0067, 0131, 0237, F808
 chars=F809, A783, 0280, 017F
 ; insular long s, ss, insular t, round y
 chars=A785, 00DF, A787, F879
+

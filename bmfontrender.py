@@ -219,7 +219,7 @@ or an integer first CP (if glyphs correspond to contiguous CPs)
 
     @staticmethod
     def fromfonifile(filename):
-        with open(filename, 'rU') as infp:
+        with open(filename, 'r') as infp:
             lines = [line.strip().split('=', 1)
                      for line in infp]
         lines = [[line[0].rstrip(), line[1].lstrip()]
