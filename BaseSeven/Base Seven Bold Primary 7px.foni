@@ -1,6 +1,6 @@
 image=../vwf/BaseSevenBold_vx8.png
 height=8
-maxwidth=8
+maxwidth=9
 bgcolor=#FFFFFF
 
 chars=0020-005F
