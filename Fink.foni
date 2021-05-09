@@ -1,0 +1,7 @@
+image=8x16/finkheavy8x15.png
+height=16
+width=8
+bgcolor=#FFFFFF
+
+# and the rest are basic latin
+chars=0020-007F
