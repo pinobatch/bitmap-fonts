@@ -1,0 +1,9 @@
+# from 240p Test Suite by Artemio Urbina
+# <https://github.com/ArtemioUrbina/240pTestSuite/blob/44b9242164d04728b6e3d6f92e194d37b4c63d6f/240psuite/Dreamcast/PVR/pngs/font.png>
+
+image=other/240p5x8.png
+height=8
+width=5
+
+# 7F in this font is U+2026 horizontal ellipsis
+chars=0020-007E,2026
