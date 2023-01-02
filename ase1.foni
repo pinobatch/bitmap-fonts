@@ -1,0 +1,15 @@
+# Aseprite font
+# <https://github.com/LibreSprite/LibreSprite/blob/275181990fcad871af143c6ac354429b53d4d099/data/fonts/ase2.pcx>
+#
+# The following applies in countries that recognize copyright in
+# bitmap fonts:
+# Copyright 2008 David Capello
+# Permission is granted to distribute this work subject to
+# the GNU General Public License version 2.
+
+image=vwf/ase1.png
+height=8
+maxwidth=11
+bgcolor=#FFFFFF
+
+chars=0020-00FF
