@@ -1,0 +1,10 @@
+# Luvui Comic by Evie McCrady
+# inspired by Optix Comic
+
+image=vwf/ase1.png
+height=8
+maxwidth=9
+bgcolor=#FFFFFF
+
+# Heart replaces DEL
+chars=0020-007E,2661

@@ -1,0 +1,9 @@
+# Optix Comic
+
+image=vwf/OptixComic_vx8.png
+height=8
+maxwidth=8
+bgcolor=#FFFFFF
+
+# DEL is house mark
+chars=0020-007E,2302

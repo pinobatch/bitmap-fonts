@@ -2,7 +2,8 @@ image=other/bios4x8.png
 height=8
 width=4
 
-chars=0020-0066,F867,0068-007F
+; del is house mark
+chars=0020-0066,F867,0068-007E,2302
 
 ; Extra chars line 1
 ; mu, cap thorn, small thorn, cap alpha

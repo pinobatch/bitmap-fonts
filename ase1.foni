@@ -12,4 +12,5 @@ height=8
 maxwidth=11
 bgcolor=#FFFFFF
 
-chars=0020-00FF
+# DEL is house mark
+chars=0020-007E,2302,0080-00FF
