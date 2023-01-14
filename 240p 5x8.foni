@@ -1,5 +1,9 @@
 # from 240p Test Suite by Artemio Urbina
 # <https://github.com/ArtemioUrbina/240pTestSuite/blob/44b9242164d04728b6e3d6f92e194d37b4c63d6f/240psuite/Dreamcast/PVR/pngs/font.png>
+# Identified by lidnariq on NESdev Discord server as
+#     -misc-fixed-medium-r-normal--7-*-*-*-c-50-*-*
+# which can be viewed in X by installing xfonts-100dpi and then
+#     xterm -geometry 80x32 -fn "5x7" -fg black -bg white nano &
 
 image=other/240p5x8.png
 height=8
