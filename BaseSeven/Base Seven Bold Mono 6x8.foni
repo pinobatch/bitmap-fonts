@@ -1,0 +1,10 @@
+# this font was submitted to 240p Test Suite
+# https://github.com/ArtemioUrbina/240pTestSuite/pull/22
+# to replace the previous font that was xterm -fn "5x7"
+# -misc-fixed-medium-r-normal--7-*-*-*-c-50-*-*
+image=../other/base7mono6x8.png
+height=8
+width=6
+bgcolor=#FFF
+
+chars=0020-007F
