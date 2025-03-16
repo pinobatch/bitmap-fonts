@@ -1,0 +1,40 @@
+Chicago (chicago*.png)
+Based on Chicago by Susan Kare
+8x16 adaptations by PinoBatch
+
+Comic Sans (martendo_comicsans.png)
+Revival of Comic Sans by Vincent Connare
+8x16 adaptation by martendo
+
+Fink Heavy (finkheavy8x15.png)
+Based on a typeface by House Industries
+8x16 adaptation by PinoBatch
+
+Fizzter Sans (fizzter*.png)
+By PinoBatch
+Inspired by "Arbor" typeface by Filmotype
+
+Fizzter Serif (fizzter*.png)
+By PinoBatch
+Inspired by "August" typeface by Filmotype
+
+GSM Player UI (gsmplay8x15.png)
+By PinoBatch
+
+Insular (insular8x14.png)
+By PinoBatch
+
+Journal
+Based on https://fontmeme.com/fonts/journal-fontourist-font/
+8x16 adaptation by retroadamshow and PinoBatch
+
+Sona UI (Sik_sona8x14.png)
+By Sik
+
+Treachery Cursive (treachery8x16.png)
+By PinoBatch
+Inspired by "The Treachery of Images" by Rene Magrite
+
+Wasted Collection (wasted8x14.png)
+Based on https://www.fonts101.com/fonts/view/Uncategorized/42858/Wasted_Collection
+8x16 adaptation by PinoBatch
